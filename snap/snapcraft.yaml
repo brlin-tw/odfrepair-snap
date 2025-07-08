@@ -1,4 +1,4 @@
-name: odfrepair-snap
+name: odfrepair
 base: core24
 version: 1.0.6
 title: ODF File Repair Utility
