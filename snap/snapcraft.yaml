@@ -16,3 +16,9 @@ description: |
 
 grade: devel
 confinement: strict
+license: Proprietary
+website: https://gitlab.com/brlin/odfrepair-snap
+issues: https://gitlab.com/brlin/odfrepair-snap/-/issues
+
+# Enable faster LZO compression
+compression: lzo
