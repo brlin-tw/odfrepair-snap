@@ -7,6 +7,13 @@ Provide easy access to the ODF File Repair Utility via the power of snaps!
 
 \#snap \#packaging \#odfrepair \#utility
 
+## References
+
+The following materials are referenced during the development of this project:
+
+* [Forum OpenOffice LibreOffice NeoOffice - Utilitaire de réparation de fichier ODF - (Consulter le sujet)](https://forum.openoffice.org/fr/forum/viewtopic.php?f=26&t=60992)  
+  The upstream software page.
+
 ## Licensing
 
 Unless otherwise noted([comment headers](https://reuse.software/spec-3.3/#comment-headers)/[REUSE.toml](https://reuse.software/spec-3.3/#reusetoml)), this product is licensed under [version 3.0 of the GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html), or any of its more recent versions of your preference.
