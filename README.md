@@ -13,6 +13,8 @@ The following materials are referenced during the development of this project:
 
 * [Forum OpenOffice LibreOffice NeoOffice - Utilitaire de réparation de fichier ODF - (Consulter le sujet)](https://forum.openoffice.org/fr/forum/viewtopic.php?f=26&t=60992)  
   The upstream software page.
+* [Craft a Java app - Snapcraft documentation](https://documentation.ubuntu.com/snapcraft/stable/how-to/integrations/craft-a-java-app/)  
+  Explains how to package a Java application in a snap.
 
 ## Licensing
 
