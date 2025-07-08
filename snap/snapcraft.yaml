@@ -1,0 +1,18 @@
+name: odfrepair-snap
+base: core24
+version: 1.0.6
+title: ODF File Repair Utility
+summary: A document repair utility for ODF/OOXML documents.
+description: |
+  This utility is designed by coupling a **zip archive repairer** with the [XML File Repair Utility](https://forum.openoffice.org/fr/forum/viewtopic.php?f=26&t=60534#p309181). It allows you to repair an **ODF** (in the **.odt, .ods, .odp, .odg, .odb** filename extensions) or Microsoft format (in the **.docx, .xlsx, .pptx** filename extensions) file without going through the usual intermediate steps (archive repair, extraction, XML file repair, archive reconstruction) in only four interactions.  If the corruption is moderate, you get a file directly repaired and usable.
+
+  This utility is made by Scrat <https://forum.openoffice.org/fr/forum/memberlist.php?mode=viewprofile&u=28713>, refer to the following page for more information:
+
+  https://forum.openoffice.org/fr/forum/viewtopic.php?f=26&t=60992
+
+  This is NOT an official distribution of the ODF File Repair Utility, refer to the snap's own issue tracker for support:
+
+  https://gitlab.com/brlin/odfrepair-snap/-/issues
+
+grade: devel
+confinement: strict
