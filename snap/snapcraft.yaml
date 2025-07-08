@@ -22,3 +22,34 @@ issues: https://gitlab.com/brlin/odfrepair-snap/-/issues
 
 # Enable faster LZO compression
 compression: lzo
+
+parts:
+  odfrepair:
+    source: ODFRepar_v_1_0_6.zip
+    plugin: dump
+    stage-packages:
+      - openjdk-11-jre
+
+  launchers:
+    source: snap/local/launchers
+    plugin: dump
+    organize:
+      odfrepair-launch: bin/
+    stage:
+      - bin/odfrepair-launch
+
+apps:
+  odfrepair:
+    command: usr/lib/jvm/java-11-openjdk-amd64/bin/java -jar $SNAP/ODFRepar_v_1_0_6/ODFRepar.jar en
+    command-chain:
+      - bin/odfrepair-launch
+    plugs:
+      - home
+      - removable-media
+    extensions:
+      - gnome
+
+# Ignore useless library warnings
+lint:
+  ignore:
+    - library

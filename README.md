@@ -7,6 +7,14 @@ Provide easy access to the ODF File Repair Utility via the power of snaps!
 
 \#snap \#packaging \#odfrepair \#utility
 
+## Workarounds
+
+The following are some workarounds that may address some of the issues during runtime:
+
+### Super tiny scaling on HiDPI displays
+
+Set the `GDK_SCALE` environment variable's value to `2` or higher.
+
 ## References
 
 The following materials are referenced during the development of this project:
